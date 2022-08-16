@@ -19,7 +19,7 @@ dependencies:
   flutter:
     sdk: flutter
 
-dialogpack:
+firebase_basemodel:
   git:
     url: git://github.com/johnebere58/firebase_basemodel.git
     ref: master # branch name
