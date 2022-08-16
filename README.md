@@ -27,6 +27,32 @@ dialogpack:
 ```
 
 ## Usage to save new data
+
+Create a model of your classes by extending basemodel like this
+
+```
+import 'package:firebase_basemodel/firebase_basemodel.dart';
+
+class User extends FirebaseBasemodel{
+
+    User();
+
+    User.fromDocumentSnapshot({required super.doc}) : super.fromDocumentSnapshot();
+
+    User.fromMap({required super.items}) : super.fromMap();
+
+    String getName() => getString('name');
+
+    int getAge() => getInt('age');
+
+    void setName(String name) => put('name', name);
+
+    void setAge(int age) => put('age', age);
+
+}
+
+```
+
 To save a new data to your firebase collection simply to this
 
 ```
@@ -38,8 +64,7 @@ To save a new data to your firebase collection simply to this
     });
 ```
 
-## Usage to update data in firebase collection
-To save a new data to your firebase collection simply to this
+To update date saved to your firebase collection simply to this
 
 ```
   FirebaseFirestore.instance.collection('userCollection')
