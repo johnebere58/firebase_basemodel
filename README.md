@@ -26,7 +26,7 @@ dialogpack:
 
 ```
 
-## Usage to save new data
+## Example Usage
 
 Create a model of your classes by extending basemodel like this
 
