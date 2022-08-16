@@ -7,6 +7,10 @@ This is a simple plugin to implement firebase functions in your flutter project
 
 [![Buy Me A Coffee](https://bmc-cdn.nyc3.digitaloceanspaces.com/BMC-button-images/custom_images/orange_img.png "Buy Me A Coffee")](https://www.buymeacoffee.com/johnebere58 "Buy Me A Coffee")
 
+## Usage
+To use this plugin, please visit the [Storage Usage documentation](https://firebase.google.com/docs/storage/flutter/create-reference)
+
+
 ## Installation
 To use this plugin, add `firebase_basemodel` as a dependency in your pubspec.yaml file.
 
